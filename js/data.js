@@ -13,7 +13,7 @@ const PROJECTS = [
     category: "CapitaLand",
     year: "2026",
     role: "Developer",
-    tools: "Python (OCR) | HTML/CSS | Power Query | VBA & Excel",
+    skills: "Python (OCR) | HTML/CSS | Power Query | VBA & Excel",
     image: "images/project-1.jpg",
     summary: "An end-to-end automation pipeline that leverages Python OCR, Power Query, and Excel macros to parse financial statements and auto-populate XBRL reporting software, reducing manual errors and turnaround time.",
     body: [
@@ -26,7 +26,7 @@ const PROJECTS = [
     category: "CapitaLand",
     year: "2026",
     role: "Developer",
-    tools: "Excel | Data Architecture | Process Automation | SAP Integration",
+    skills: "Excel | Data Architecture | Process Automation | SAP Integration",
     image: "images/project-2.jpg",
     summary: "A centralised access management engine that integrates SAP data to auto-populate 16 complex institutional banking templates, saving over 300 operational hours per cycle.",
     body: [
@@ -39,7 +39,7 @@ const PROJECTS = [
     category: "CapitaLand",
     year: "2026",
     role: "Developer",
-    tools: "Microsoft Fabric | Power BI | Python | Ollama (Local LLM) | VBA & Excel",
+    skills: "Microsoft Fabric | Power BI | Python | Ollama (Local LLM) | VBA & Excel",
     image: "images/project-3.jpg",
     summary: "A dashboard used for monthly reporting",
     body: [
@@ -52,7 +52,7 @@ const PROJECTS = [
     category: "SMU",
     year: "2026",
     role: "Co-Developer",
-    tools: "Decision Science | LMSR AMM | Mechanism Design | Enterprise Governance | Python",
+    skills: "Decision Science | LMSR AMM | Mechanism Design | Enterprise Governance | Python",
     image: "images/project-4.jpg",
     summary: "An internal prediction market protocol utilizing automated market makers and behavioral guardrails to eliminate organizational bias and surface high-conviction strategic warnings.",
     body: [
@@ -66,7 +66,7 @@ const PROJECTS = [
     category: "SMU",
     year: "2026",
     role: "Analyst",
-    tools: "Financial Statement Analysis | DCF Modeling | Trading Multiples | Accounting Restatements",
+    skills: "Financial Statement Analysis | DCF Modeling | Trading Multiples | Accounting Restatements",
     image: "images/project-5.jpg",
     summary: "An equity research report featuring accounting restatements, balance sheet solvency checks, and a hybrid DCF valuation yielding a BUY rating with 46% potential upside.",
     body: [
@@ -79,7 +79,7 @@ const PROJECTS = [
     category: "SMU",
     year: "2026",
     role: "TBC",
-    tools: "TBC",
+    skills: "TBC",
     image: "images/project-6.jpg",
     summary: "XX.",
     body: [
