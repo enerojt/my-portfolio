@@ -684,19 +684,40 @@ h2.section-title{
     transform: translateY(0) !important;
     opacity: 1 !important;
    }
+   .project-card .card-meta{
+    z-index: 2;
+   } 
    .brand{ font-size: 22px; }
    .nav-links{ gap: 20px; font-size: 11px; }
    
    
   /* ---- home hero photo ---- */
-  .hero{ padding-top: 20px; }
+  .hero{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    min-height: auto;
+  }
+  .hero .wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0;
+  }
   .hero-visual{
     display: block;
     position: static;
     transform: none;
-    width: 180px;
-    margin: 32px auto 0;
+    order: -1;
+    width: 42vw;
+    max-width: 220px;
+    margin: 0 0 32px;
   }
+  .hero h1{ font-size: 25px; line-height: 1.2; }
+  .hero-eyebrow{ font-size: 11px; }
+  .hero p.lede{ font-size: 15px; max-width: 90%; }
+  .hero .btn{ font-size: 12px; padding: 14px 24px; }
 
   /* ---- about intro ---- */
   .about-hero-section{
@@ -737,6 +758,7 @@ h2.section-title{
   }
   .scroll-track{
     margin-top: calc(-100vh + 60px);
+    padding-top: 10vh
   }
   .scroll-point{
     min-height: calc(100vh - 60px);
@@ -797,6 +819,10 @@ h2.section-title{
   }
 
   .event-nav-top{
+    position: static;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    width: 100%;
     top: 10px;
     font-size: 10px;
   }
@@ -806,7 +832,7 @@ h2.section-title{
   }
 
   .scroll-spacer{ height: 20vh; }
-  
+
   .project-card::after{
     content: "";
     position: absolute;
