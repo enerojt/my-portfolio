@@ -54,9 +54,9 @@ const PROJECTS = [
     role: "Co-Developer",
     tools: "Decision Science | LMSR AMM | Mechanism Design | Enterprise Governance | Python",
     image: "images/project-4.jpg",
-    summary: "A Token-Incentivised Prediction Market Infrastructure for Fortune 500 Strategic Intelligence",
+    summary: "An internal prediction market protocol utilizing automated market makers and behavioral guardrails to eliminate organizational bias and surface high-conviction strategic warnings.",
     body: [
-      "Co-designed CorpIQ, a token-incentivized internal prediction market infrastructure designed to optimize strategic decision-making for Fortune 500 companies. The protocol addresses critical organizational biases, such as corporate hierarchy bias, information silos, and escalation of commitment, by leveraging a Logarithmic Market Scoring Rule (LMSR) Automated Market Maker for continuous probability discovery. Built-in anti-manipulation guardrails (circuit breakers, position caps, and mandatory trade rationales) enable executives to surface high-conviction early warnings on high-stakes events like M&A synergy targets and product launch timelines."
+      "Designed CorpIQ, a token-incentivized internal prediction market infrastructure designed to optimize strategic decision-making for Fortune 500 companies. The protocol addresses critical organizational biases, such as corporate hierarchy bias, information silos, and escalation of commitment, by leveraging a Logarithmic Market Scoring Rule (LMSR) Automated Market Maker for continuous probability discovery. Built-in anti-manipulation guardrails (circuit breakers, position caps, and mandatory trade rationales) enable executives to surface high-conviction early warnings on high-stakes events like M&A synergy targets and product launch timelines."
     ]
   },
 
@@ -68,7 +68,7 @@ const PROJECTS = [
     role: "Analyst",
     tools: "Financial Statement Analysis | DCF Modeling | Trading Multiples | Accounting Restatements",
     image: "images/project-5.jpg",
-    summary: "A wayfinding and identity system for a community arts center.",
+    summary: "An equity research report featuring accounting restatements, balance sheet solvency checks, and a hybrid DCF valuation yielding a BUY rating with 46% potential upside.",
     body: [
       "Conducted a comprehensive equity research report on Alliance Healthcare Group Ltd (SGX: MIJ), culminating in a BUY recommendation with a SGD $0.20 target price (46% potential upside). Executed accounting adjustments for non-recurring expenses (COVID-19 rental rebates and bad debt write-offs) and evaluated balance sheet solvency risks using the Altman Z-Score model. Built a hybrid valuation blending a 5-year Unlevered Discounted Cash Flow (DCF) model (WACC=4.35%) with peer trading multiples (P/E, EV/EBITDA), highlighting key catalysts such as specialty pharmacy growth and P/E re-rating dynamics."
     ]
