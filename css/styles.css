@@ -667,10 +667,10 @@ h2.section-title{
 
 /* ---------- footer ---------- */
 .site-footer{
-  padding: 56px 0;
+  padding: 18px 0;
   border-top: 1px solid var(--paper-soft);
   font-family: var(--font-mono);
-  font-size: 13px;
+  font-size: 6px;
   color: var(--ink-soft);
 }
 .site-footer.on-dark{
