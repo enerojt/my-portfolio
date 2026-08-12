@@ -26,7 +26,7 @@ const PROJECTS = [
     category: "CapitaLand",
     year: "2026",
     role: "Developer",
-    skills: "Excel | Data Architecture | Process Automation | SAP Integration",
+    skills: "Excel | SAP ",
     image: "images/project-2.jpg",
     summary: "A centralised access management engine that integrates SAP data to auto-populate 16 complex institutional banking templates, saving over 300 operational hours per cycle.",
     body: [
