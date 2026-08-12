@@ -13,69 +13,64 @@ const PROJECTS = [
     category: "CapitaLand",
     year: "2026",
     role: "Developer",
-    tools: "Python, HTML, CSS, Power Query, Excel",
+    tools: "Python (OCR) | HTML/CSS | Power Query | VBA & Excel",
     image: "images/project-1.jpg",
-    summary: "A workflow to make XBRL filing more accurate and efficient.",
+    summary: "An end-to-end automation pipeline that leverages Python OCR, Power Query, and Excel macros to parse financial statements and auto-populate XBRL reporting software, reducing manual errors and turnaround time.",
     body: [
-      "Describe the brief here: what the client needed, and the constraints you were designing within.",
-      "Describe your process and the key decisions you made — this is where the story of the work lives."
+      "Engineered an end-to-end automation pipeline to streamline XBRL financial reporting and compliance. Developed a Python-based OCR workflow to extract legacy XBRL data, which was subsequently cleaned and transformed using Power Query to build an enterprise mapping dictionary. The system parses financial statements directly from Word documents, mapping the extracted data into a macro-enabled template that automatically populates XBRL software with a single click, significantly cutting down turnaround time and eliminating high-risk manual entry errors."
     ]
   },
   {
     id: "Bank",
-    title: "Treasury Banking Forms",
+    title: "Treasury Access Management & Automated Form",
     category: "CapitaLand",
     year: "2026",
     role: "Developer",
-    tools: "Python, HTML, CSS, Excel",
+    tools: "Excel | Data Architecture | Process Automation | SAP Integration",
     image: "images/project-2.jpg",
-    summary: "A workflow to make filling up of banking forms more accurate and efficient.",
+    summary: "A centralised access management engine that integrates SAP data to auto-populate 16 complex institutional banking templates, saving over 300 operational hours per cycle.",
     body: [
-      "Replace this with a short paragraph about the project's goals.",
-      "Add a second paragraph about the outcome or what you learned."
+      "Designed and deployed a centralized user access and form automation system to streamline treasury operations across 16 distinct institutional banking templates. By consolidating master user credentials, system access profiles, and SAP authorization data into a automated Excel engine, the tool auto-populates complex bank forms requiring granular details (user IDs, operational roles, contact info). This solution eliminated manual data keying and verification, saving over 300 hours per operational exercise."
     ]
   },
   {
     id: "Dashboard",
-    title: "Dashboard",
+    title: "Enterprise Reporting Ecosystem & AI Decision Assistant",
     category: "CapitaLand",
     year: "2026",
     role: "Developer",
-    tools: "Python, Ollama, HTML, CSS, Excel VBA",
+    tools: "Microsoft Fabric | Power BI | Python | Ollama (Local LLM) | VBA & Excel",
     image: "images/project-3.jpg",
     summary: "A dashboard used for monthly reporting",
     body: [
-      "Replace this with a short paragraph about the project's goals.",
-      "Add a second paragraph about the outcome or what you learned."
+      "Built an enterprise-grade reporting ecosystem to track real estate project performance, development expenditures (PDE), and loan facilities across residential portfolios. Initially architected with macro-enabled Excel input templates and an experimental Python dashboard featuring an integrated local Ollama LLM for conversational Q&A, the system allowed stakeholders to query metrics directly. To overcome performance latency and scalability limits as data volume expanded, migrated the data architecture to Microsoft Fabric to ensure seamless analytics processing."
     ]
   },
   {
-    id: "token",
-    title: "Prediction Market Intelligence",
+    id: "corpIQ",
+    title: "CorpIQ: Enterprise Prediction Market Infrastructure",
     category: "SMU",
     year: "2026",
     role: "Co-Developer",
-    tools: "Python",
+    tools: "Decision Science | LMSR AMM | Mechanism Design | Enterprise Governance | Python",
     image: "images/project-4.jpg",
     summary: "A Token-Incentivised Prediction Market Infrastructure for Fortune 500 Strategic Intelligence",
     body: [
-      "Replace this with a short paragraph about the project's goals.",
-      "Add a second paragraph about the outcome or what you learned."
+      "Co-designed CorpIQ, a token-incentivized internal prediction market infrastructure designed to optimize strategic decision-making for Fortune 500 companies. The protocol addresses critical organizational biases, such as corporate hierarchy bias, information silos, and escalation of commitment, by leveraging a Logarithmic Market Scoring Rule (LMSR) Automated Market Maker for continuous probability discovery. Built-in anti-manipulation guardrails (circuit breakers, position caps, and mandatory trade rationales) enable executives to surface high-conviction early warnings on high-stakes events like M&A synergy targets and product launch timelines."
     ]
   },
 
   {
     id: "Reporting",
-    title: "Corporate Reporting",
+    title: "Strategic Valuation: Alliance Healthcare Group",
     category: "SMU",
     year: "2026",
     role: "Analyst",
-    tools: "Excel, PowerPoint",
+    tools: "Financial Statement Analysis | DCF Modeling | Trading Multiples | Accounting Restatements",
     image: "images/project-5.jpg",
     summary: "A wayfinding and identity system for a community arts center.",
     body: [
-      "Replace this with a short paragraph about the project's goals.",
-      "Add a second paragraph about the outcome or what you learned."
+      "Conducted a comprehensive equity research report on Alliance Healthcare Group Ltd (SGX: MIJ), culminating in a BUY recommendation with a SGD $0.20 target price (46% potential upside). Executed accounting adjustments for non-recurring expenses (COVID-19 rental rebates and bad debt write-offs) and evaluated balance sheet solvency risks using the Altman Z-Score model. Built a hybrid valuation blending a 5-year Unlevered Discounted Cash Flow (DCF) model (WACC=4.35%) with peer trading multiples (P/E, EV/EBITDA), highlighting key catalysts such as specialty pharmacy growth and P/E re-rating dynamics."
     ]
   },
   {
@@ -88,8 +83,7 @@ const PROJECTS = [
     image: "images/project-6.jpg",
     summary: "XX.",
     body: [
-      "Replace this with a short paragraph about the project's goals.",
-      "Add a second paragraph about the outcome or what you learned."
+      "TBC"
     ]
   },
   
