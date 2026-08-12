@@ -705,6 +705,30 @@ h2.section-title{
 }
 
 @media (max-width: 768px){
+
+  /* ---- home hero photo ---- */
+  .hero{ padding-top: 20px; }
+  .hero-visual{
+    display: block;
+    position: static;
+    transform: none;
+    width: 180px;
+    margin: 32px auto 0;
+  }
+
+  /* ---- about intro ---- */
+  .about-hero-section{
+    min-height: auto;
+    padding: 60px 0;
+  }
+  .about-hero{
+    grid-template-columns: 1fr;
+  }
+  .about-photo{
+    aspect-ratio: 4/3;
+  }
+
+  /* ---- education timeline ---- */
   .scroll-bg{
     top: 60px;
     height: calc(100vh - 60px);
@@ -719,57 +743,58 @@ h2.section-title{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 12px;
-    padding: 16px 0 16px 78px;   /* clears the rail on the left */
+    gap: 10px;
+    padding: 16px 0 16px 70px;
   }
 
   .scroll-rail{
     left: 3%;
     top: 6%;
     bottom: 6%;
-    width: 60px;
+    width: 55px;
   }
   .rail-year{
-    height: 46px;
-    font-size: 11px;
-    padding-left: 20px;
+    height: 42px;
+    font-size: 10px;
+    padding-left: 18px;
   }
   .rail-year.active{
-    font-size: 20px;
+    font-size: 18px;
   }
   .rail-year::before{
-    width: 10px; height: 10px;
+    width: 9px; height: 9px;
   }
 
   .scroll-point .timeline-photo{
     width: 100%;
-    height: 140px;
+    height: 120px;
   }
 
   .scroll-point-text .date{
-    font-size: 11px;
-    margin-bottom: 6px;
+    font-size: 10px;
+    margin-bottom: 4px;
   }
   .scroll-point-text h3{
-    font-size: 19px;
-    margin-bottom: 8px;
+    font-size: 17px;
+    margin-bottom: 6px;
     line-height: 1.15;
   }
   .event-para,
   .event-bullets li{
-    font-size: 14px;
-    line-height: 1.4;
-    margin-bottom: 8px;
+    font-size: 13px;
+    line-height: 1.35;
+    margin-bottom: 6px;
   }
 
   .event-nav-top{
-    top: 12px;
-    font-size: 11px;
+    top: 10px;
+    font-size: 10px;
   }
   .event-next{
-    width: 24px; height: 24px;
-    font-size: 12px;
+    width: 22px; height: 22px;
+    font-size: 11px;
   }
 
-  .scroll-spacer{ height: 30vh; }
+  .scroll-spacer{ height: 20vh; }
+}
 }
