@@ -88,7 +88,7 @@ function renderProjectDetail(){
         <div class="meta-grid">
           <div><span>Role</span>${project.role}</div>
           <div><span>Year</span>${project.year}</div>
-          <div><span>Tools</span>${project.skills}</div>
+          <div><span>Skills</span>${project.skills}</div>
         </div>
       </div>
     </div>
