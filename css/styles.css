@@ -397,16 +397,18 @@ h2.section-title{
   background: var(--gold);
 }
 
-.scroll-point{
-  min-height: calc(100vh - 76px);
-  display: flex;
-  align-items: center;
-  gap: 36px;
-  width: 1000px;
-  margin-left: 150px;
-  margin-right: 150px;
-  color: var(--cream-on-dark);
-  padding: 60px 0;
+@media (min-width: 769px){
+  .scroll-point{
+    min-height: calc(100vh - 76px);
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    width: 1000px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: var(--cream-on-dark);
+    padding: 60px 0;
+  }
 }
 .scroll-point .timeline-photo{
   height: 50vh;
@@ -416,7 +418,7 @@ h2.section-title{
   flex-shrink: 0;
   margin: 0;
 }
-.scroll-point{ position: relative; }  /* add this line to your existing .scroll-point rule if not already there */
+.scroll-point{ position: relative; display: flex; align-items: center; gap: 36px; color: var(--cream-on-dark); padding: 60px 0; }
 
 .event-nav-top{
   position: absolute;
@@ -477,34 +479,6 @@ h2.section-title{
 }
 .event-para:last-child{
   margin-bottom: 0;
-}
-
-@media (max-width: 768px){
-  .scroll-bg{ display: none; }
-  .scroll-track{ margin-top: 0; }
-  .scroll-spacer{ display: none; }
-
-  .scroll-point{
-    min-height: auto;
-    width: auto;
-    margin: 0 20px 40px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-    padding: 28px 20px;
-    background: linear-gradient(160deg, #1c2a22, #16211C);
-    border-radius: var(--radius);
-    border: 1px solid rgba(242,239,230,0.08);
-    position: relative;
-  }
-  .scroll-point .timeline-photo{
-    width: 100%;
-    height: 200px;
-  }
-  .event-nav-top{
-    position: static;
-    align-self: flex-end;
-  }
 }
 
 /* ---------- projects grid ---------- */
@@ -705,7 +679,11 @@ h2.section-title{
 }
 
 @media (max-width: 768px){
-
+   .card-meta{
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+   }
+   
   /* ---- home hero photo ---- */
   .hero{ padding-top: 20px; }
   .hero-visual{
@@ -796,5 +774,4 @@ h2.section-title{
   }
 
   .scroll-spacer{ height: 20vh; }
-}
 }
