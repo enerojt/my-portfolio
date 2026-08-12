@@ -186,7 +186,7 @@ function initScrollObserver(){
   const railWindow = document.querySelector(".scroll-rail");
   if (!points.length || !track) return;
 
-  const itemHeight = 70; // must match CSS .rail-year height
+  const itemHeight = window.innerWidth <= 768 ? 46 : 70; // must match CSS .rail-year height
 
   function moveTrackTo(index){
     const windowHeight = railWindow.offsetHeight;
