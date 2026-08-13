@@ -132,7 +132,7 @@ const TIMELINE = [
       { title: "Honorary Finance Secretary | Taekwondo Club", image: "images/2024-1.jpg", 
         text: [
           "Formulated semestral budgets and managed end-to-end expense tracking, allocating capital across coaching fees, equipment procurement, and major club events.",
-          "Managed cross-departmental claims and cost-recovery workflows, producing comprehensive semester-end financial statements for club members"
+          "Managed cross-departmental claims and cost-recovery workflows, producing comprehensive semester-end financial statements for club members."
          ]}
   ]},
   { id: "y2023", year: "2023", bg: "images/bg-2023.jpg", events: [
