@@ -1,4 +1,4 @@
-# Jorene — Portfolio Site
+# Jorene's Portfolio 
 
 ## Structure
 ```
