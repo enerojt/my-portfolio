@@ -30,7 +30,7 @@ const PROJECTS = [
     image: "images/project-2.jpg",
     summary: "A centralised access management engine that integrates SAP data to auto-populate 16 complex institutional banking templates, saving over 300 operational hours per cycle.",
     body: [
-      "Designed and deployed a centralized user access and form automation system to streamline treasury operations across 16 distinct institutional banking templates. By consolidating master user credentials, system access profiles, and SAP authorization data into a automated Excel engine, the tool auto-populates complex bank forms requiring granular details (user IDs, operational roles, contact info). This solution eliminated manual data keying and verification, saving over 300 hours per operational exercise."
+      "Designed and deployed a centralised user access and form automation system to streamline treasury operations across 16 distinct institutional banking templates. By consolidating master user credentials, system access profiles, and SAP authorisation data into a automated Excel engine, the tool auto-populates complex bank forms requiring granular details (user IDs, operational roles, contact info). This solution eliminated manual data keying and verification, saving over 300 hours per operational exercise."
     ]
   },
   {
@@ -41,7 +41,7 @@ const PROJECTS = [
     role: "Developer",
     skills: "Microsoft Fabric | Power BI | Python | Ollama (Local LLM) | VBA & Excel",
     image: "images/project-3.jpg",
-    summary: "A dashboard used for monthly reporting",
+    summary: "A real estate analytics dashboard combining Excel templates, a local AI assistant for conversational Q&A, and Microsoft Fabric to deliver high-performance project tracking",
     body: [
       "Built an enterprise-grade reporting ecosystem to track real estate project performance, development expenditures (PDE), and loan facilities across residential portfolios. Initially architected with macro-enabled Excel input templates and an experimental Python dashboard featuring an integrated local Ollama LLM for conversational Q&A, the system allowed stakeholders to query metrics directly. To overcome performance latency and scalability limits as data volume expanded, migrated the data architecture to Microsoft Fabric to ensure seamless analytics processing."
     ]
@@ -54,7 +54,7 @@ const PROJECTS = [
     role: "Co-Developer",
     skills: "Decision Science | LMSR AMM | Mechanism Design | Enterprise Governance | Python",
     image: "images/project-4.jpg",
-    summary: "An internal prediction market protocol utilizing automated market makers and behavioral guardrails to eliminate organizational bias and surface high-conviction strategic warnings.",
+    summary: "An internal prediction market protocol utilizing automated market makers and behavioral guardrails to eliminate organisational bias and surface high-conviction strategic warnings.",
     body: [
       "Designed CorpIQ, a token-incentivized internal prediction market infrastructure designed to optimize strategic decision-making for Fortune 500 companies. The protocol addresses critical organizational biases, such as corporate hierarchy bias, information silos, and escalation of commitment, by leveraging a Logarithmic Market Scoring Rule (LMSR) Automated Market Maker for continuous probability discovery. Built-in anti-manipulation guardrails (circuit breakers, position caps, and mandatory trade rationales) enable executives to surface high-conviction early warnings on high-stakes events like M&A synergy targets and product launch timelines."
     ]
@@ -129,10 +129,10 @@ const TIMELINE = [
          ]}
   ]},
   { id: "y2024", year: "2024", bg: "images/bg-2024.jpg", events: [
-      { title: "The Circular Classroom | Market & Behavioral Research Analyst", image: "images/2024-1.jpg", 
+      { title: "Honorary Finance Secretary | Taekwondo Club", image: "images/2024-1.jpg", 
         text: [
-          "Designed and analysed quantitative consumer surveys to evaluate behavioral barriers around textile recycling.",
-          "Cleaned survey datasets and created a dashboard using Tableau to deliver actionable strategies aimed at accelerating circular economy participation."
+          "Formulated semestral budgets and managed end-to-end expense tracking, allocating capital across coaching fees, equipment procurement, and major club events.",
+          "Managed cross-departmental claims and cost-recovery workflows, producing comprehensive semester-end financial statements for club members"
          ]}
   ]},
   { id: "y2023", year: "2023", bg: "images/bg-2023.jpg", events: [
