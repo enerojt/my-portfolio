@@ -15,9 +15,13 @@ const PROJECTS = [
     role: "Developer",
     skills: "Python (OCR) | HTML/CSS | Power Query | VBA & Excel",
     image: "images/project-1.jpg",
-    summary: "An end-to-end automation pipeline that leverages Python OCR, Power Query, and Excel macros to parse financial statements and auto-populate XBRL reporting software, reducing manual errors and turnaround time.",
+    summary: "An end-to-end Python pipeline that automates financial reporting, replacing risky manual entry with a fast, one-click workflow.",
     body: [
-      "Engineered an end-to-end automation pipeline to streamline XBRL financial reporting and compliance. Developed a Python-based OCR workflow to extract legacy XBRL data, which was subsequently cleaned and transformed using Power Query to build an enterprise mapping dictionary. The system parses financial statements directly from Word documents, mapping the extracted data into a macro-enabled template that automatically populates XBRL software with a single click, significantly cutting down turnaround time and eliminating high-risk manual entry errors."
+      "Here is how the system operates:",
+      "<b>OCR Extraction:</b> Custom Python scripts automatically scan and pull data from legacy financial documents.",
+      "<b>Smart Mapping:</b> Power Query cleans the raw data to create a master enterprise mapping dictionary.",
+      "<b>Document Parsing:</b> The system reads incoming Word financial statements and tags figures automatically.",
+      "<b>One-Click Filing:</b> Custom macros instantly push formatted data directly into XBRL reporting software."
     ]
   },
   {
