@@ -70,7 +70,7 @@ const PROJECTS = [
       "Here is how the protocol operates:",
       "<b>1. Market Scoring Engine:</b> Utilises a Logarithmic Market Scoring Rule (LMSR) Automated Market Maker to continuously calculate accurate probability scores on critical events, such as M&A targets and launch dates",
       "<b>2. Bias Mitigation:</b> Overcomes organizational hierarchy, office politics, and information silos by allowing employees to trade tokens on real outcomes using their true insights",
-      "<b>3. Built-in Guardrails:</b> Incorporates strict anti-manipulation controls—including trading circuit breakers, position caps, and mandatory trade rationales—to maintain market integrity",
+      "<b>3. Built-in Guardrails:</b> Incorporates strict anti-manipulation controls including trading circuit breakers, position caps, and mandatory trade rationales to maintain market integrity",
       "<b>4. Strategic Decision Support:</b> Transforms hidden employee knowledge into actionable early warnings for high-stakes corporate decisions"
     ]
   },
