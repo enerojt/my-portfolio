@@ -18,10 +18,10 @@ const PROJECTS = [
     summary: "An end-to-end Python pipeline that automates financial reporting, replacing risky manual entry with a fast, one-click workflow.",
     body: [
       "Here is how the system operates:",
-      "<b>OCR Extraction:</b> Custom Python scripts automatically scan and pull data from legacy financial documents.",
-      "<b>Smart Mapping:</b> Power Query cleans the raw data to create a master enterprise mapping dictionary.",
-      "<b>Document Parsing:</b> The system reads incoming Word financial statements and tags figures automatically.",
-      "<b>One-Click Filing:</b> Custom macros instantly push formatted data directly into XBRL reporting software."
+      "<b>OCR Extraction:</b> Custom Python scripts automatically scan and pull data from legacy financial documents",
+      "<b>Smart Mapping:</b> Power Query cleans the raw data to create a master enterprise mapping dictionary",
+      "<b>Document Parsing:</b> The system reads incoming Word financial statements and tags figures automatically",
+      "<b>One-Click Filing:</b> Custom macros instantly push formatted data directly into XBRL reporting software"
     ]
   },
   {
@@ -34,7 +34,11 @@ const PROJECTS = [
     image: "images/project-2.jpg",
     summary: "A centralised access management engine that integrates SAP data to auto-populate 16 complex institutional banking templates, saving over 300 operational hours per cycle.",
     body: [
-      "Designed and deployed a centralised user access and form automation system to streamline treasury operations across 16 distinct institutional banking templates. By consolidating master user credentials, system access profiles, and SAP authorisation data into a automated Excel engine, the tool auto-populates complex bank forms requiring granular details (user IDs, operational roles, contact info). This solution eliminated manual data keying and verification, saving over 300 hours per operational exercise."
+      "Here is how the automation process works:",
+      "<b>1. Data Consolidation:</b> Centralised master user profiles, system access credentials and SAP authorization data into a single, unified database",
+      "<b>2. Automated Matching:</b> Programmed an Excel engine to parse and map raw user data directly into specific bank-required fields (IDs, operational roles, contact details)",
+      "<b>3. Auto-Populating Forms:</b> System automatically feeds the mapped data across 16 different institutional bank templates simultaneously with zero manual keying",
+      "<b>4. Operational Efficiency:</b> Replaced repetitive manual entry and data verification, saving over 300 hours per operational cycle"
     ]
   },
   {
@@ -43,11 +47,14 @@ const PROJECTS = [
     category: "CapitaLand",
     year: "2026",
     role: "Developer",
-    skills: "Microsoft Fabric | Power BI | Python | Ollama (Local LLM) | VBA & Excel",
+    skills: "Microsoft Fabric | Python | Ollama (Local LLM) | VBA & Excel",
     image: "images/project-3.jpg",
-    summary: "A real estate analytics dashboard combining Excel templates, a local AI assistant for conversational Q&A, and Microsoft Fabric to deliver high-performance project tracking",
+    summary: "An enterprise analytics system to track project performance, development expenditure, and loan facilities across residential portfolios, scaling it from a local AI dashboard to a cloud-based infrastructure.",
     body: [
-      "Built an enterprise-grade reporting ecosystem to track real estate project performance, development expenditures (PDE), and loan facilities across residential portfolios. Initially architected with macro-enabled Excel input templates and an experimental Python dashboard featuring an integrated local Ollama LLM for conversational Q&A, the system allowed stakeholders to query metrics directly. To overcome performance latency and scalability limits as data volume expanded, migrated the data architecture to Microsoft Fabric to ensure seamless analytics processing."
+      "Here is how the system evolved:",
+      "<b>1. Excel Data Ingestion:</b> Standardised data entry across portfolios using custom macro-enabled Excel templates to capture operational metrics",
+      "<b>2. Conversational AI Interface:</b> Developed a Python dashboard integrated with a local Ollama LLM, enabling stakeholders to query project metrics directly through plain-language Q&A",
+      "<b>3. Scalable Cloud Migration:</b> Upgraded the data architecture to Microsoft Fabric to eliminate latency and maintain high-speed analytical processing as data volumes grew"
     ]
   },
   {
@@ -58,9 +65,13 @@ const PROJECTS = [
     role: "Co-Developer",
     skills: "Decision Science | LMSR AMM | Mechanism Design | Enterprise Governance | Python",
     image: "images/project-4.jpg",
-    summary: "An internal prediction market protocol utilizing automated market makers and behavioral guardrails to eliminate organisational bias and surface high-conviction strategic warnings.",
+    summary: "An internal prediction market protocol utilising automated market makers and behavioral guardrails to eliminate organisational bias and surface high-conviction strategic warnings.",
     body: [
-      "Designed CorpIQ, a token-incentivized internal prediction market infrastructure designed to optimize strategic decision-making for Fortune 500 companies. The protocol addresses critical organizational biases, such as corporate hierarchy bias, information silos, and escalation of commitment, by leveraging a Logarithmic Market Scoring Rule (LMSR) Automated Market Maker for continuous probability discovery. Built-in anti-manipulation guardrails (circuit breakers, position caps, and mandatory trade rationales) enable executives to surface high-conviction early warnings on high-stakes events like M&A synergy targets and product launch timelines."
+      "Here is how the protocol operates:",
+      "<b>1. Market Scoring Engine:</b> Utilises a Logarithmic Market Scoring Rule (LMSR) Automated Market Maker to continuously calculate accurate probability scores on critical events, such as M&A targets and launch dates",
+      "<b>2. Bias Mitigation:</b> Overcomes organizational hierarchy, office politics, and information silos by allowing employees to trade tokens on real outcomes using their true insights",
+      "<b>3. Built-in Guardrails:</b> Incorporates strict anti-manipulation controls—including trading circuit breakers, position caps, and mandatory trade rationales—to maintain market integrity",
+      "<b>4. Strategic Decision Support:</b> Transforms hidden employee knowledge into actionable early warnings for high-stakes corporate decisions"
     ]
   },
 
@@ -72,9 +83,13 @@ const PROJECTS = [
     role: "Analyst",
     skills: "Financial Statement Analysis | DCF Modeling | Trading Multiples | Accounting Restatements",
     image: "images/project-5.jpg",
-    summary: "An equity research report featuring accounting restatements, balance sheet solvency checks, and a hybrid DCF valuation yielding a BUY rating with 46% potential upside.",
+    summary: "I conducted a comprehensive equity research report for my school project on Alliance Healthcare Group (SGX: MIJ), issuing a BUY recommendation with a SGD 0.20 target price (46% potential upside)",
     body: [
-      "Conducted a comprehensive equity research report on Alliance Healthcare Group Ltd (SGX: MIJ), culminating in a BUY recommendation with a SGD $0.20 target price (46% potential upside). Executed accounting adjustments for non-recurring expenses (COVID-19 rental rebates and bad debt write-offs) and evaluated balance sheet solvency risks using the Altman Z-Score model. Built a hybrid valuation blending a 5-year Unlevered Discounted Cash Flow (DCF) model (WACC=4.35%) with peer trading multiples (P/E, EV/EBITDA), highlighting key catalysts such as specialty pharmacy growth and P/E re-rating dynamics."
+      "Here is how the analysis was structured:",
+      "<b>1. Normalised Financials:</b> Adjusted financial statements for non-recurring items—such as pandemic-related rental rebates and bad debt write-offs—to reflect true operating performance",
+      "<b>2. Solvency Risk Assessment:</b> Evaluated long-term financial health and balance sheet stability using the Altman Z-Score model",
+      "<b>3. Hybrid Valuation Model:</b> Combined a 5-year Unlevered Discounted Cash Flow (DCF) model (4.35% WACC) with peer trading multiples (P/E, EV/EBITDA) for accurate pricing",
+      "<b>4. Catalyst Identification:</b> Outlined key growth drivers, focusing on specialty pharmacy expansion and market valuation re-rating potential"
     ]
   },
   {
